@@ -25,7 +25,7 @@ Just what it says.
 
 3) Use it by adding `canadian_postal_code` to your attribute's validation rules.
 
-```
+```php
 $rules = array('postal_code' => 'canadian_postal_code|required');
 Validator::make($attributes, $rules);
 ```
