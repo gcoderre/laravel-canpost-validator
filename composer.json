@@ -1,6 +1,7 @@
 {
-    "name": "molotov/canpost-validator",
+    "name": "molotov/laravel-canpost-validator",
     "description": "Canadian postal code validator for Laravel 4x",
+    "keywords": ["laravel", "validator"],
     "authors": [
         {
             "name": "Guillaume Coderre",
