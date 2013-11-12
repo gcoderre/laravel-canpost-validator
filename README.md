@@ -1,4 +1,31 @@
-laravel-canpost-validator
-=========================
+## Canadian postal code validator for Laravel 4.x
 
-Canadian postal code validator for Laravel 4x
+Just what it says.
+
+### Usage
+
+1) Install with composer
+
+```js
+{
+  "require": {
+    "molotov/laravelcanpost-validator": "1.0.*"
+  }
+}
+```
+
+2) Add the service provider to your project's autoloader in `/app/config/app.php`
+
+```php
+'providers' => array(
+  // ...
+  'Molotov\CanpostValidator\CanpostValidatorServiceProvider'
+);
+```
+
+3) Use it by adding `canadian_postal_code` to your attribute's validation rules.
+
+```
+$rules = array('postal_code' => 'canadian_postal_code|required');
+Validator::make($attributes, $rules);
+```
