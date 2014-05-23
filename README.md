@@ -9,7 +9,7 @@ Just what it says.
 ```js
 {
   "require": {
-    "molotov/laravelcanpost-validator": "1.0.*"
+    "molotov/laravel-canpost-validator": "1.0.*"
   }
 }
 ```
